@@ -1,0 +1,9 @@
+n, h = list(map(int, input().rstrip().split()))
+lst = list(map(int, input().rstrip().split()))
+width = 0
+for i in lst:
+    if i > h:
+        width = width + 2
+    elif i < h or i == h:
+        width = width + 1
+print(width)
