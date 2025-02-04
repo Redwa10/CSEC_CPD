@@ -1,0 +1,11 @@
+n =int(input())
+s = input()
+for i in range(n):
+    anton = s.count('A')
+    danik = s.count('D')
+if anton > danik:
+    print('anton')
+elif danik > anton:
+    print('danik')
+else:
+    print('friendship')
