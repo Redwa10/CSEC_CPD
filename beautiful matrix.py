@@ -1,6 +1,5 @@
 lst1 = []
 move = 0
-
 for _ in range(5):
     lst = list(map(int, input().rstrip().split()))
     lst1.append(lst)
