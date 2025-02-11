@@ -4,7 +4,7 @@ d = 0
 left = 0
 right = n - 1
 turn = 0
-lst = list(map(int, input().split()))
+lst = list(map(int, input().rstrip().split()))
 
 while left <= right:
     if lst[left] > lst[right]:
