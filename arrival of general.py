@@ -12,8 +12,5 @@ for i in range(1, len(lst)+1):
         min_pos = i
     else:
        pass
-
-max_pos = max_pos - 1
-min_pos = len(lst) - min_pos - 1
-count = max_pos + min_pos
+count = (max_pos - 1) + (len(lst) - min_pos - 1)
 print(f"{count}")
