@@ -1,0 +1,10 @@
+n = int(input())
+count = 0
+while n > 5 or n == 5 :
+    n = n - 5
+    count = count + 1
+if n > 0:
+    count = count + 1
+elif n== 0:
+    pass    
+print(count)
