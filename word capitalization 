@@ -1,3 +1,0 @@
-n = input()
-b = n[0]
-print(f'{b.capitalize()}{n[1:]}')
