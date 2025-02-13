@@ -1,0 +1,14 @@
+n = input()
+a = n[0]
+b = n[2]
+list = []
+count1 = 0
+for i in range(int(a)):
+    list.append(int(input())) 
+for j in range(len(list)):
+    if list[j] == 0:
+        count1= count1 + 1
+list1 = list[int(b): ]
+n = list1.count(list[int(b)])           
+count = len(list[0:int(b)]) + n - count1
+print(count)

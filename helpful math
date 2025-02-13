@@ -1,0 +1,6 @@
+n = input()
+n = sorted(n[::2])
+output = ''
+for number in n:
+    output = output + number + '+'
+print(output[:-1])
