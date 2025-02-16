@@ -1,0 +1,25 @@
+import math
+
+def main():
+    perfect_sqaure()
+    
+    
+def perfect_sqaure():
+       
+    num = int(input(' enter the number u wanna check:  '))
+    n = str(math.sqrt(num))
+    # x is the index of the decimal point
+    x = n.find('.')
+    #print('{:7}' .format(x))
+    #print('{:7}' .format(len(n)))
+    y = int(n[x+1: ])
+    if y != 0:
+        print('it is not a perfect square.')
+    else:
+        print('it is a perfect square.')
+    
+    print('the squate root of ur number is', n , sep=': ')
+    #print(' {:7}' .format(n))
+    
+    
+main()
