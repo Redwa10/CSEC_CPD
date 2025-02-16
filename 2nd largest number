@@ -1,0 +1,10 @@
+def main():
+    second_largest()
+    
+    
+    
+def  second_largest():
+    list1= [10, 6, 4, 7, 3, 9, 57]
+    list1.sort()
+    print(list1[-2])
+main()
