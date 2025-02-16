@@ -1,0 +1,22 @@
+def main():
+    kth_largest()
+    
+    
+    
+def kth_largest():
+    list= [2, 4, 57, 44, 34, 78, 32, 45, 99, 47, 74, 56, 21, 85, 61, 90]
+    list.sort(reverse= True)
+    #print(list)
+    k = int(input('enter k'))
+    x = len(list)
+    while True:
+        if k > x:
+            print('the number u put in is out of range')
+            k = int(input('enter a valid number'))
+            continue
+        else:
+           break
+    print(list[k-1])
+    
+    
+main()
