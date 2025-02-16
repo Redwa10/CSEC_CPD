@@ -1,0 +1,15 @@
+def main():
+    fibonacci()
+    
+  
+  
+  
+def fibonacci():
+    a, b = 0, 1
+    while a < 100:
+        print('{:5} '. format(a) , end='')
+        a, b= b, a+b
+    
+    
+    
+main()
